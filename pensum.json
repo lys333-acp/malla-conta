@@ -1,0 +1,105 @@
+{
+  "carrera": "Contaduría Pública",
+  "plan": "2S-2025",
+  "semestres": [
+    {
+      "semestre": 1,
+      "asignaturas": [
+        { "codigo": "CB-1102", "nombre": "Introducción a la Economía", "creditos": 2, "prelaciones": [] },
+        { "codigo": "CB-1103", "nombre": "Historia Socioeconómica de Vzla", "creditos": 3, "prelaciones": [] },
+        { "codigo": "CB-1104", "nombre": "Metodología de la Investigación I", "creditos": 4, "prelaciones": [] },
+        { "codigo": "CB-1101", "nombre": "Introducción a la Matemática", "creditos": 3, "prelaciones": [] },
+        { "codigo": "AC-3201", "nombre": "Derecho Público", "creditos": 3, "prelaciones": [] }
+      ]
+    },
+    {
+      "semestre": 2,
+      "asignaturas": [
+        { "codigo": "AC-4301", "nombre": "Fundamentos Económicos I", "creditos": 4, "prelaciones": ["CB-1102"] },
+        { "codigo": "CP-4301", "nombre": "Contabilidad Básica", "creditos": 6, "prelaciones": [] },
+        { "codigo": "AC-5101", "nombre": "Sociología de las Organizaciones", "creditos": 3, "prelaciones": [] },
+        { "codigo": "CB-1105", "nombre": "Matemática I", "creditos": 4, "prelaciones": ["CB-1101"] },
+        { "codigo": "AC-3202", "nombre": "Legislación Mercantil", "creditos": 3, "prelaciones": ["AC-3201"] }
+      ]
+    },
+    {
+      "semestre": 3,
+      "asignaturas": [
+        { "codigo": "AC-4302", "nombre": "Fundamentos Económicos II", "creditos": 4, "prelaciones": ["AC-4301"] },
+        { "codigo": "CP-4302", "nombre": "Contabilidad I", "creditos": 6, "prelaciones": ["CP-4301"] },
+        { "codigo": "AC-5102", "nombre": "Teoría de la Organización", "creditos": 3, "prelaciones": ["AC-5101"] },
+        { "codigo": "AC-1102", "nombre": "Matemática II", "creditos": 4, "prelaciones": ["CB-1105"] },
+        { "codigo": "AC-3203", "nombre": "Legislación Laboral", "creditos": 3, "prelaciones": ["AC-3202"] }
+      ]
+    },
+    {
+      "semestre": 4,
+      "asignaturas": [
+        { "codigo": "AC-4303", "nombre": "Recursos y Ecosistemas", "creditos": 3, "prelaciones": ["AC-4302"] },
+        { "codigo": "CP-4303", "nombre": "Contabilidad II", "creditos": 6, "prelaciones": ["CP-4302"] },
+        { "codigo": "AC-5103", "nombre": "Comportamiento Organizacional", "creditos": 3, "prelaciones": ["AC-5102"] },
+        { "codigo": "AC-1103", "nombre": "Estadística I", "creditos": 4, "prelaciones": ["AC-1102"] },
+        { "codigo": "AC-1104", "nombre": "Cálculo Financiero", "creditos": 4, "prelaciones": ["AC-1102"] }
+      ]
+    },
+    {
+      "semestre": 5,
+      "asignaturas": [
+        { "codigo": "AC-4307", "nombre": "Contabilidad en Época de Inflación", "creditos": 4, "prelaciones": ["CP-4303"] },
+        { "codigo": "CP-4304", "nombre": "Contabilidad III", "creditos": 6, "prelaciones": ["CP-4303"] },
+        { "codigo": "CP-4305", "nombre": "Contabilidad de Costos I", "creditos": 4, "prelaciones": ["CP-4303"] },
+        { "codigo": "AC-1105", "nombre": "Estadística II", "creditos": 4, "prelaciones": ["AC-1103"] },
+        { "codigo": "AC-5104", "nombre": "Administración I", "creditos": 3, "prelaciones": ["AC-5103"] }
+      ]
+    },
+    {
+      "semestre": 6,
+      "asignaturas": [
+        { "codigo": "CP-4306", "nombre": "Contabilidad Gubernamental", "creditos": 4, "prelaciones": ["CP-4304"] },
+        { "codigo": "CP-4307", "nombre": "Auditoría I", "creditos": 4, "prelaciones": ["CP-4304"] },
+        { "codigo": "CP-4308", "nombre": "Contabilidad de Costos II", "creditos": 4, "prelaciones": ["CP-4305"] },
+        { "codigo": "AC-5105", "nombre": "Sistemas y Procedimientos", "creditos": 3, "prelaciones": ["AC-5104"] },
+        { "codigo": "AC-8502", "nombre": "Principios de Computación", "creditos": 2, "prelaciones": [] }
+      ]
+    },
+    {
+      "semestre": 7,
+      "asignaturas": [
+        { "codigo": "AC-8503", "nombre": "Instituciones Financieras", "creditos": 3, "prelaciones": [] },
+        { "codigo": "AC-5106", "nombre": "Auditoría II", "creditos": 4, "prelaciones": ["CP-4307"] },
+        { "codigo": "AC-5201", "nombre": "Contabilidad de Costos III", "creditos": 4, "prelaciones": ["CP-4308"] },
+        { "codigo": "AC-5202", "nombre": "Sistemas de Información", "creditos": 4, "prelaciones": ["AC-5105", "AC-8502"] },
+        { "codigo": "AC-5203", "nombre": "Impuestos I", "creditos": 4, "prelaciones": [] }
+      ]
+    },
+    {
+      "semestre": 8,
+      "asignaturas": [
+        { "codigo": "AC-5107", "nombre": "Administración y Protección de Riesgos", "creditos": 3, "prelaciones": ["AC-8503"] },
+        { "codigo": "CP-5303", "nombre": "Auditoría III", "creditos": 4, "prelaciones": ["AC-5106"] },
+        { "codigo": "AC-5204", "nombre": "Análisis de Estados Financieros", "creditos": 4, "prelaciones": ["AC-5201"] },
+        { "codigo": "AC-5205", "nombre": "Presupuesto de Empresas", "creditos": 4, "prelaciones": ["AC-5201"] },
+        { "codigo": "AC-5206", "nombre": "Impuestos II", "creditos": 4, "prelaciones": ["AC-5203"] }
+      ]
+    },
+    {
+      "semestre": 9,
+      "asignaturas": [
+        { "codigo": "CP-5301", "nombre": "Investigación Aplicada a la Contaduría", "creditos": 4, "prelaciones": ["CB-1104"] },
+        { "codigo": "AC-5108", "nombre": "Auditoría IV", "creditos": 4, "prelaciones": ["CP-5303"] },
+        { "codigo": "AC-5109", "nombre": "Administrativa", "creditos": 4, "prelaciones": ["AC-5108"] },
+        { "codigo": "AC-5110", "nombre": "Aplicada a la Administración", "creditos": 4, "prelaciones": ["AC-5109"] },
+        { "codigo": "ELECTIVA", "nombre": "Electiva", "creditos": 4, "prelaciones": [] }
+      ]
+    },
+    {
+      "semestre": 10,
+      "asignaturas": [
+        { "codigo": "CP-5302", "nombre": "Trabajo de Grado", "creditos": 6, "prelaciones": ["CP-5301"] },
+        { "codigo": "AD-5301", "nombre": "Problemas de la Gerencia", "creditos": 4, "prelaciones": ["AC-5110"] },
+        { "codigo": "AD-5302", "nombre": "Trabajo de Aplicación en Administración", "creditos": 4, "prelaciones": ["AD-5301"] },
+        { "codigo": "ELECTIVA", "nombre": "Electiva", "creditos": 4, "prelaciones": [] }
+      ]
+    }
+  ]
+}
